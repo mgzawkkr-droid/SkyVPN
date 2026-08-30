@@ -1,35 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/build.gradle.kts",
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/MainActivity.kt",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 13,
+          "index": 2816,
+          "line": 97
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 13,
+          "index": 2816,
+          "line": 97
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml",
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/AndroidManifest.xml",
       "selection": {
         "end": {
-          "column": 52,
-          "index": 1920,
-          "line": 51
+          "column": 36,
+          "index": 457,
+          "line": 12
         },
         "start": {
-          "column": 52,
-          "index": 1920,
-          "line": 51
+          "column": 36,
+          "index": 457,
+          "line": 12
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/MainActivity.kt"
 }

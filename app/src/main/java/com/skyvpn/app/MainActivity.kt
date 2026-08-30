@@ -64,13 +64,18 @@ class MainActivity : AppCompatActivity() {
 
                     if(json.has("token")) {
 
+                        val uuid = 
+                    json.getString("uuid")
+                        val expire = json.getString("expire")
+
                         Toast.makeText(
                             this@MainActivity,
-                            "Login Success",
-                            Toast.LENGTH_LONG
-                        ).show()
+                           "Login Success\nUUID: 
+                   $uuid\nExpire: $expire",
+                         Toast.LENGTH_LONG
+                       ).show()
 
-                    } else {
+                   } else {
 
                         Toast.makeText(
                             this@MainActivity,
