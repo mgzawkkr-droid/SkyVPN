@@ -75,12 +75,13 @@ class MainActivity : AppCompatActivity() {
 
 } else {
 
-                        Toast.makeText(
-    this@MainActivity,
-    "Login Success\nUUID: $uuid\nExpire: $expire",
-    Toast.LENGTH_LONG
-).show()
-                    }
+    Toast.makeText(
+        this@MainActivity,
+        json.getString("error"),
+        Toast.LENGTH_LONG
+    ).show()
+
+}
                 }
 
             } catch(e: Exception) {
