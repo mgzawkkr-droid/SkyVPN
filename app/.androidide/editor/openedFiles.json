@@ -14,7 +14,22 @@
           "line": 0
         }
       }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 52,
+          "index": 1920,
+          "line": 51
+        },
+        "start": {
+          "column": 52,
+          "index": 1920,
+          "line": 51
+        }
+      }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/build.gradle.kts"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml"
 }
