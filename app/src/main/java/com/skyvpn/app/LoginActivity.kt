@@ -1,3 +1,4 @@
+import android.content.Intent
 package com.skyvpn.app
 
 import android.os.Bundle
@@ -9,7 +10,7 @@ import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
@@ -67,11 +68,11 @@ class MainActivity : AppCompatActivity() {
     val uuid = json.getString("uuid")
     val expire = json.getString("expire")
 
-    Toast.makeText(
-        this@MainActivity,
-        "Login Success\nUUID: $uuid\nExpire: $expire",
-        Toast.LENGTH_LONG
-    ).show()
+    val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
+intent.putExtra("uuid", uuid)
+intent.putExtra("expire", expire)
+startActivity(intent)
+finish()
 
 } else {
 

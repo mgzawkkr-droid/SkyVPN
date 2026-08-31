@@ -1,17 +1,17 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/MainActivity.kt",
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/LoginActivity.kt",
       "selection": {
         "end": {
           "column": 1,
-          "index": 2162,
-          "line": 83
+          "index": 2580,
+          "line": 100
         },
         "start": {
           "column": 1,
-          "index": 2162,
-          "line": 83
+          "index": 2580,
+          "line": 100
         }
       }
     },
@@ -19,17 +19,77 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/AndroidManifest.xml",
       "selection": {
         "end": {
-          "column": 36,
-          "index": 457,
-          "line": 12
+          "column": 11,
+          "index": 941,
+          "line": 31
         },
         "start": {
-          "column": 36,
-          "index": 457,
-          "line": 12
+          "column": 11,
+          "index": 941,
+          "line": 31
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/DashboardActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 660,
+          "line": 22
+        },
+        "start": {
+          "column": 1,
+          "index": 660,
+          "line": 22
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_dashboard.xml",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 885,
+          "line": 36
+        },
+        "start": {
+          "column": 15,
+          "index": 885,
+          "line": 36
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/.androidide/editor/openedFiles.json",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/MainActivity.kt"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml"
 }
