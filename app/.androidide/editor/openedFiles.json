@@ -4,14 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/java/com/skyvpn/app/LoginActivity.kt",
       "selection": {
         "end": {
-          "column": 1,
-          "index": 2580,
-          "line": 100
+          "column": 27,
+          "index": 2148,
+          "line": 79
         },
         "start": {
-          "column": 1,
-          "index": 2580,
-          "line": 100
+          "column": 27,
+          "index": 2148,
+          "line": 79
         }
       }
     },
@@ -39,9 +39,9 @@
           "line": 22
         },
         "start": {
-          "column": 1,
-          "index": 660,
-          "line": 22
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     },
@@ -54,9 +54,9 @@
           "line": 36
         },
         "start": {
-          "column": 15,
-          "index": 885,
-          "line": 36
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     },
@@ -91,5 +91,5 @@
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_main.xml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SkyVPN/app/src/main/res/layout/activity_dashboard.xml"
 }

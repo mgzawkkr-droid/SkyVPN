@@ -1,6 +1,6 @@
-import android.content.Intent
 package com.skyvpn.app
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -77,7 +77,7 @@ finish()
 } else {
 
     Toast.makeText(
-        this@MainActivity,
+        this@LoginActivity,
         json.getString("error"),
         Toast.LENGTH_LONG
     ).show()
@@ -90,7 +90,7 @@ finish()
                 withContext(Dispatchers.Main) {
 
                     Toast.makeText(
-                        this@MainActivity,
+                        this@LoginActivity,
                         "Api server is unavailable",
                         Toast.LENGTH_LONG
                     ).show()
