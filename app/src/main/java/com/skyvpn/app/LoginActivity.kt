@@ -68,9 +68,13 @@ class LoginActivity : AppCompatActivity() {
     val uuid = json.getString("uuid")
     val expire = json.getString("expire")
 
-    val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
+    val token = json.getString("token")
+
+val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
 intent.putExtra("uuid", uuid)
 intent.putExtra("expire", expire)
+intent.putExtra("token", token)
+
 startActivity(intent)
 finish()
 
